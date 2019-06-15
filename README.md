@@ -3,11 +3,11 @@
 - add the library [Barcode Scanner](https://pub.dev/packages/barcode_scan) to the file `pubspec.yaml`
 - Android setup
     - create the flutter project with kotlin support as the plugin is written in kotlin
-    - Add camera permission to the file  `androd/app/src/profile/AndroidManifest.xml`
+    - Add camera permission to the file  `android/app/src/profile/AndroidManifest.xml`
         ```xml
         <uses-permission android:name="android.permission.CAMERA" />
         ```
-    - add the plugin activity to `androd/app/src/main/AndroidManifest.xml`
+    - add the plugin activity to `android/app/src/main/AndroidManifest.xml`
         ```xml
         <!-- Get this line from the plugin documents as it might change in the future -->
         <activity android:name="com.apptreesoftware.barcodescan.BarcodeScannerActivity"/>
